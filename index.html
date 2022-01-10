@@ -15,7 +15,7 @@
             <img id="mobile-menu-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
 
             <nav>
-                <img id="mobile-menu-cta" class="mobile-menu" src="images/exit.svg" alt="Close Navigation">
+                <img id="mobile-menu-cta" class="mobile-\-exit" src="images/exit.svg" alt="Close Navigation">
                 <ul class="primary-nav">
                     <li class="current"><a href="#">Home</a> </li>
                     <li><a href="#">Features</a> </li>
@@ -108,5 +108,16 @@
             </div>
         </div>
     </section>
+    <script>
+        const mobileBtn = document.getElementById("mobile-cta")
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classlist.add('menu-btn');
+        })
+        
+    </script>
+
 </body>
 </html>

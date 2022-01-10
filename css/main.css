@@ -197,6 +197,7 @@ nav {
   background: #20272e;
   height: 100vh;
   padding: 1em;
+  display: none;
 }
 
 nav ul.primary-nav {
@@ -216,3 +217,9 @@ nav li a:hover {
   font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
+
+.mobile-exit{
+    float: right;
+    margin: 1.5;
+    cursor: pointer;
+}
